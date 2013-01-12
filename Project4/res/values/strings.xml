@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="app_name">Tascii</string>
+
+    <string name="Register">Register</string>
+
+    <string name="create_group">Create Group</string>
+
+    <string name="join_group">Join Group</string>
+
+    <string name="my_groups">My Groups</string>
+
+    <string name="add_task">Add Task</string>
+
+    <string name="finish_add_task">Finish</string>
+
+    <string name="add_task_name">Task Name</string>
+
+    <string name="not_started_task">Not Started</string>
+
+    <string name="in_progress_task">In Progress</string>
+
+    <string name="finished_task">Finished</string>
+
+    <string name="remove_task">Remove Task</string>
+
+    <string name="done">Done</string>
+    
+    <string name="enter_username">Enter username</string>
+    
+    <string name="enter_password">Enter password</string>
+    
+    <string name="group_name">Group Name</string>
+    
+    <string name="password">Password</string>
+    
+    <string name="finish">Finish</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="join">Join</string>
+    
+    <string name="group_name_error_ingroup">You are already in this group</string>
+    
+    <string name="group_name_exists_error">This group already exists</string>
+    
+    <string name="username_error">Username does not exist</string>
+    
+    <string name="username_error_exists">Username already exists</string>
+    
+    <string name="invalid_group_password">Invalid Group Name or Password</string>
+    
+    <string name="empty_task_name">The task cannot be empty</string>
+    
+    <string name="username_invalid">Invalid Username</string>
+    
+    <string name="group_name_invalid">Invalid Group Name</string>
+    
+    
+</resources>

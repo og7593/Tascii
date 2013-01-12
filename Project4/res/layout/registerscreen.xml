@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="22dp" />
+
+    <EditText
+        android:id="@+id/enter_username_text_field"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="@string/enter_username" />
+
+    <EditText
+        android:id="@+id/enter_password_text_field"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="17dp" />
+    
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <ProgressBar
+            android:id="@+id/register_status"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        
+        <Button
+            android:id="@+id/register_user_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Register"
+            android:layout_alignBottom="@id/register_status" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

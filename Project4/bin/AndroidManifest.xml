@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eecs285.project4"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo">
+        <activity
+            android:name="com.eecs285.project4.LoginOrRegister"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+              <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name="RegisterScreen" android:label="Register" 
+            android:theme="@android:style/Theme.Holo.Dialog" ></activity>
+        <activity android:name="HomeScreen" android:label="Home" 
+            android:theme="@android:style/Theme.Holo.Dialog" ></activity>
+        <activity android:name="CreateGroupScreen" android:label="Create Group" 
+            android:theme="@android:style/Theme.Holo.Dialog" ></activity>
+        <activity android:name="JoinGroupScreen" android:label="Join Group" 
+            android:theme="@android:style/Theme.Holo.Dialog" ></activity>
+        <activity android:name="MyGroupsScreen" android:label="My Groups" ></activity>
+        <activity android:name="GroupTaskScreen" android:label="Tasks" 
+            android:theme="@android:style/Theme.Holo.Dialog" ></activity>
+        <activity android:name="AddTaskScreen" android:label="Add Tasks" 
+            android:theme="@android:style/Theme.Holo.Dialog" ></activity>
+        <activity android:name="ChangeTaskStateScreen" android:label="Modify Task" 
+            android:theme="@android:style/Theme.Holo.Dialog" ></activity>
+    </application>
+
+</manifest>

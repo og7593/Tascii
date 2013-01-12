@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/task_name_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="@string/add_task_name" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/set_user_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/finish_add_task_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/task_name_input"
+        android:text="@string/finish_add_task" />
+
+</RelativeLayout>
